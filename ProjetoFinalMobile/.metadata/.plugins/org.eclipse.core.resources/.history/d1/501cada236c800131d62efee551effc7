@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    
+    <TableRow>
+        <TextView android:text="Cadastre-se agora"
+            android:textSize="25sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Nome:"/>
+        <EditText android:id="@+id/nome"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="E-mail:"/>
+        <EditText android:id="@+id/email"/>
+    </TableRow>
+        <TableRow>
+        <TextView android:text="Senha:"/>
+        <EditText android:id="@+id/senha"/>
+    </TableRow>
+        <TableRow>
+        <TextView android:text="Confirmar senha:"/>
+        <EditText android:id="@+id/confSenha"/>
+    </TableRow>
+    <Button android:id="@+id/cadastrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"/>
+</TableLayout>
