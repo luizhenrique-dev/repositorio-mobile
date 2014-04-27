@@ -26,6 +26,10 @@
             android:name="br.ufg.inf.es.ufgnotifyer.CadastroActivity"
             android:label="@string/title_activity_cadastro" >
         </activity>
+        <activity
+            android:name="br.ufg.inf.es.ufgnotifyer.NotificacaoActivity"
+            android:label="@string/title_activity_notificacao" >
+        </activity>
     </application>
 
 </manifest>
