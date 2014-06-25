@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+         <CheckBox
+        android:id="@+id/checkBoxMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Mostrar somente mensagens não lidas" />
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBoxUFG"
+        android:layout_below="@+id/checkBoxMsg"
+        android:layout_marginTop="24dp"
+        android:text="Ordenar por data"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+
+        <RadioButton
+            android:id="@+id/radioMaiorData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:text="Maior para menor" />
+
+        <RadioButton
+            android:id="@+id/radioMenorData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioMaiorData"
+            android:text="Menor para maior" />
+    </RadioGroup>
+    
+     
+    
+
+</RelativeLayout>
